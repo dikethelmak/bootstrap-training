@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<title>My little animated website</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 100px;
+			position: relative;
+			background:red;
+			-webkit-animation:David 5s;
+			animation: David 5s;
+		}
+			@-webkit-keyframes David{
+				0%{background:red;
+					left:0px;
+					top:0px; }
+				25%{background:grey;
+					left:200px;
+					top:0px; }
+				50%{background:yellow;
+					left:200px;
+					top:200px; }
+				75%{background:green;
+					left:0px;
+					top:200px; }
+				100%{background:grey;
+					left:0px;
+					top:0px;}
+				}
+
+
+			@keyframes David{
+				0%{background:red;
+					left:0px;
+					top:0px; }
+				25%{background:grey;
+					left:200px;
+					top:0px; }
+				50%{background:yellow;
+					left:200px;
+					top:200px; }
+				75%{background:green;
+					left:0px;
+					top:200px; }
+				100%{background:grey;
+					left:0px;
+					top:0px;}
+				}
+
+
+	</style>
+</head>
+<body>
+<div></div>
+</body>
+</html>

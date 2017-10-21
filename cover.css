@@ -1,0 +1,36 @@
+.bodyy{
+	background-color: #000;
+	height: 100%;
+	width: 100%;
+	box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.navvy{
+	background-color: black;
+	padding-top: 50px;
+	width: 50%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.left-pull{
+	float: left;
+}
+
+.fight-pull{
+	float: right;
+}
+
+ul{
+	display: inline-block;
+}
+
+a {
+	color: white;
+	display: inline-block;
+	padding: 30px;
+
+}
